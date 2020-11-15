@@ -1,0 +1,530 @@
+/*320 365 425 768 1024 1230 1920 2050*/
+
+@media screen and (max-width: 1920px) {
+    .photo-items {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .photo-items {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1405px) {
+    .photo-items {
+        width: 100% !important;
+        justify-content: space-evenly;
+        background: #000000;
+    }
+
+    .photo-items img {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .container {
+        width: 90% !important;
+    }
+
+    #header-menu {
+        justify-content: inherit !important;
+    }
+
+    #specialties .single-item .info .image svg {
+        display: none;
+    }
+
+    #contact-form .input {
+        width: 277px !important;
+    }
+
+    .textarea {
+        width: 99% !important;
+    }
+
+    #contact-form {
+        width: 870px;
+        margin: 0 auto;
+    }
+
+    #contact-action {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #contact-form button {
+        width: 99% !important;
+        margin-left: 0px !important;
+    }
+
+    #more-contacts {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+
+    .img-border {
+        width: 300px;
+        right: -88px !important;
+    }
+
+    .other-img-border {
+        top: -7px !important;
+        left: -100px !important;
+    }
+
+    .product-name {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .input {
+        width: 250px !important;
+    }
+
+    #form button {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .photo-items {
+        justify-content: center !important;
+    }
+
+    .photo-items img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #working-hours {
+        top: 620px !important;
+    }
+
+    #social-network-items {
+        top: 600px !important;
+
+    }
+
+    #book .info .image {
+        display: none;
+    }
+
+    .input {
+        width: 270px !important;
+    }
+
+    #form button {
+        margin: 10px 0 20px;
+    }
+
+    .image img {
+        width: 370px !important;
+    }
+
+    .private-decor {
+        width: 308px !important;
+    }
+
+    .decor-corporate {
+        bottom: 149px !important;
+        right: 219px !important;
+    }
+
+    .decor-wedding {
+        bottom: 149px !important;
+        left: 220px !important;
+    }
+
+    #private .container .info {
+        justify-content: space-between !important;
+    }
+
+    #photo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .slick-dotted.slick-slider {
+        margin-top: 30px;
+    }
+
+    #about {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 905px) {
+
+    #main {
+        background-size: cover !important;
+    }
+
+    #main-content {
+        padding-top: 75px !important;
+    }
+
+    #main-text h1 {
+        font-size: 86px !important;
+    }
+
+    #working-hours {
+        display: none;
+    }
+
+    #social-network-items {
+        top: 524px !important;
+    }
+
+    .text p {
+        font-size: 14px !important;
+    }
+
+    #pizza-price .product-price-item:nth-child(3) {
+        display: none !important;
+    }
+
+    #drinks-price .product-price-item:nth-child(3) {
+        display: none !important;
+    }
+
+    .product-price {
+        justify-content: center !important;
+    }
+
+    .product-price-item {
+        width: 300px !important;
+    }
+
+    #contact-form {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #contact-form .input {
+        width: 31% !important;
+    }
+
+    .textarea {
+        width: 97% !important;
+    }
+
+    #contact-form button {
+        width: 97% !important;
+        margin-right: 13px;
+    }
+
+    .price-items {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .price-item {
+        padding: 20px 30px !important;
+    }
+
+    #private {
+        background-size: cover !important;
+    }
+
+    #private .container .info {
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .menu-item-img {
+        margin-top: 13px !important;
+        width: 100px;
+    }
+
+    #main-text h1 {
+        font-size: 74px !important;
+    }
+
+    #social-network-items {
+        top: 478px !important;
+    }
+
+    #specialties .title {
+        font-size: 27px !important;
+    }
+
+    .image img {
+        width: 340px !important;
+    }
+
+    .text p {
+        line-height: 19px !important;
+    }
+
+    .img-border {
+        width: 248px;
+        right: -69px !important;
+        top: -43px !important;
+    }
+
+    .other-img-border {
+        top: -7px !important;
+        left: -82px !important;
+    }
+
+    .slick-dots {
+        bottom: -18px !important;
+    }
+
+    .price-item {
+        padding: 20px !important;
+    }
+
+    .contacts-item span {
+        font-size: 13px !important;
+    }
+
+    .decor-wedding {
+        bottom: 135px !important;
+        left: 205px !important;
+    }
+
+    .private-decor {
+        width: 284px !important;
+    }
+
+    .decor-corporate {
+        bottom: 135px !important;
+        right: 206px !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .menu-items {
+        display: none !important;
+    }
+
+
+    #burger {
+        display: block !important;
+        margin-left: 10px;
+    }
+
+    .menu-item-img {
+        position: absolute;
+        top: 25px;
+        right: 44px;
+        margin-top: 0 !important;
+    }
+
+    #main-text h1 {
+        font-size: 60px !important;
+    }
+
+    #social-network-items {
+        top: 405px !important;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 80% !important;
+    }
+
+    #our-team {
+        background-size: cover !important;
+        padding-bottom: 30px;
+    }
+
+    #specialties {
+        background-size: cover !important;
+        padding-bottom: 60px !important;
+    }
+
+    #book .text {
+        width: 100% !important;
+    }
+
+    #form button {
+        width: 97% !important;
+    }
+
+    .slick-dots {
+        bottom: -27px !important;
+    }
+
+    .price-item {
+        padding: 20px 15px !important;
+    }
+
+    .product-name span {
+        font-size: 8px !important;
+    }
+
+    .info-number {
+        font-size: 10px !important;
+    }
+
+    #contact-form .input {
+        height: 53px !important;
+    }
+
+    .textarea {
+        width: 98% !important;
+    }
+
+    #contact-form button {
+        width: 98% !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #form button {
+        width: 270px !important;
+    }
+
+    #contact-form .input {
+        width: 98% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .price-item {
+        padding: 20px 10px !important;
+    }
+
+    #social-network-items {
+        top: 568px !important;
+        right: 46px !important;
+    }
+
+    #main-action {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-transparent {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+
+    .price-items {
+        display: flex;
+        margin: 45px auto 20px !important;
+    }
+
+    .product-price-item:nth-child(2) {
+        display: none !important;
+    }
+
+    .contacts-item {
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+
+
+    #more-contacts {
+        flex-direction: column;
+    }
+
+    #contact {
+        padding: 65px 0 !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .info-number {
+        margin-top: 30px;
+    }
+
+    .private-decor {
+        width: 90% !important;
+        background-color: transparent !important;
+    }
+
+    .decor-wedding {
+        transform: rotate(0deg) !important;
+        bottom: -36px !important;
+        left: 99px !important;
+    }
+
+    .decor-corporate {
+        transform: rotate(0deg) !important;
+        bottom: -31px !important;
+        right: 0 !important;
+    }
+
+    .price-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .price-item {
+        padding: 20px !important;
+        width: 45px;
+    }
+
+    .product-price-item {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .price-item:nth-child(3n) {
+        border-right: none;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .image img {
+        width: 320px !important;
+    }
+
+    .img-border {
+        width: 209px !important;
+    }
+
+    .other-img-border {
+        top: -61px !important;
+        left: -81px !important;
+    }
+
+    #our-team .title {
+        font-size: 34px !important;
+    }
+
+}
